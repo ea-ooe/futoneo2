@@ -1,0 +1,317 @@
+name: "Deutsch (Neo 2), Schicht 3"
+attributes: {moreKeyMode: OnlyExplicit}
+numberRowMode: AlwaysDisabled
+layoutSetOverrides:
+  symbolsShifted: "custom2"
+
+rows: 
+  - letters:
+    - type: base
+      spec: "¹"
+    - type: base
+      spec: "²"
+    - type: base
+      spec: "³"
+    - type: base
+      spec: "›"
+    - type: base
+      spec: "‹"
+    - type: base
+      spec: "¢"
+    - type: base
+      spec: "¥"
+    - type: base
+      spec: "‚"
+    - type: base
+      spec: "‘"
+    - type: base
+      spec: "’"
+    - type: base
+      spec: "M5|!code/key_to_alt_0_layout"
+      moreKeys: "M6|!code/key_to_alt_1_layout"
+  - letters: 
+    - type: base
+      spec: "…"
+    - type: base
+      spec: "_"
+    - type: base
+      spec: "["
+    - type: base
+      spec: "]"
+    - type: base
+      spec: "^"
+    - type: base
+      spec: "!"
+    - type: base
+      spec: "<"
+    - type: base
+      spec: ">"
+    - type: base
+      spec: "="
+    - type: base
+      spec: "&"
+    - type: base
+      spec: "ſ"
+  - letters: 
+    - type: base
+      spec: "\\"
+    - type: base
+      spec: "/"
+    - type: base
+      spec: "{"
+    - type: base
+      spec: "}"
+    - type: base
+      spec: "*"
+    - type: base
+      spec: "?"
+    - type: base
+      spec: "("
+    - type: base
+      spec: ")"
+    - type: base
+      spec: "-"
+    - type: base
+      spec: "\u003A" # :
+    - type: base
+      spec: "@"
+  - letters:
+    - $shift
+    - type: base
+      spec: "#"
+    - type: base
+      spec: "$"
+    - type: base
+      spec: "|"
+    - type: base
+      spec: "~"
+    - type: base
+      spec: "`"
+    - type: base
+      spec: "+"
+    - type: base
+      spec: "%"
+    - type: base
+      spec: ";"
+    - $delete
+  - bottom:
+    - $alphabet
+    - "\""
+    - $action
+    - $space
+    - "'"
+    - $enter
+
+altPages:
+  - - letters:
+      - type: base
+        spec: "₁"
+      - type: base
+        spec: "₂"
+      - type: base
+        spec: "₃"
+      - type: base
+        spec: "♀"
+      - type: base
+        spec: "♂"
+      - type: base
+        spec: "⚥"
+      - type: base
+        spec: "ϰ"
+      - type: base
+        spec: "⟨"
+      - type: base
+        spec: "⟩"
+      - type: base
+        spec: "₀"
+      - type: base
+        spec: "‑"
+    
+    - letters:
+      - type: base
+        spec: "ξ"
+      - $gap
+      - type: base
+        spec: "λ"
+      - type: base
+        spec: "χ"
+      - type: base
+        spec: "ω"
+      - type: base
+        spec: "κ"
+      - type: base
+        spec: "ψ"
+      - type: base
+        spec: "γ"
+      - type: base
+        spec: "φ"
+      - type: base
+        spec: "ϕ"
+      - type: base
+        spec: "ς"
+    
+    - letters: 
+      - $gap
+      - type: base
+        spec: "ι"
+      - type: base
+        spec: "α"
+      - type: base
+        spec: "ε"
+      - type: base
+        spec: "ο"
+      - type: base
+        spec: "σ"
+      - type: base
+        spec: "ν"
+      - type: base
+        spec: "ρ"
+      - type: base
+        spec: "τ"
+      - type: base
+        spec: "δ"
+      - type: base
+        spec: "υ"
+    
+    - letters:
+      - $shift
+      - $gap
+      - type: base
+        spec: "ϵ"
+      - type: base
+        spec: "η"
+      - type: base
+        spec: "π"
+      - type: base
+        spec: "ζ"
+      - type: base
+        spec: "β"
+      - type: base
+        spec: "μ"
+      - type: base
+        spec: "ϱ"
+      - type: base
+        spec: "ϑ"
+      - type: base
+        spec: "θ"
+      - $delete
+
+    - bottom:
+      - $alphabet
+      - type: base
+        spec: "M5|!code/key_to_alt_0_layout"
+        attributes: {style: StickyOn}
+      - $action
+      - $space
+      - type: base
+        spec: "M6|!code/key_to_alt_1_layout"
+      - $enter
+
+  - - letters:
+      - type: base
+        spec: "¬"
+      - type: base
+        spec: "∨"
+      - type: base
+        spec: "∧"
+      - type: base
+        spec: "⊥"
+      - type: base
+        spec: "∡"
+      - type: base
+        spec: "∥"
+      - type: base
+        spec: "→"
+      - type: base
+        spec: "∞"
+      - type: base
+        spec: "∝"
+      - type: base
+        spec: "∅"
+      - type: base
+        spec: "­"
+    
+    - letters:
+      - type: base
+        spec: "Ξ"
+      - type: base
+        spec: "√"
+      - type: base
+        spec: "Λ"
+      - type: base
+        spec: "ℂ"
+      - type: base
+        spec: "Ω"
+      - type: base
+        spec: "×"
+      - type: base 
+        spec: "Ψ"
+      - type: base
+        spec: "Γ"
+      - type: base
+        spec: "Φ"
+      - type: base
+        spec: "ℚ"
+      - type: base
+        spec: "∘"
+
+    - letters:
+      - type: base
+        spec: "⊂"
+      - type: base
+        spec: "∫"
+      - type: base
+        spec: "∀"
+      - type: base
+        spec: "∃"
+      - type: base
+        spec: "∈"
+      - type: base
+        spec: "Σ"
+      - type: base
+        spec: "ℕ"
+      - type: base
+        spec: "ℝ"
+      - type: base
+        spec: "∂"
+      - type: base
+        spec: "Δ"
+      - type: base
+        spec: "∇"
+    
+    - letters:
+      - $shift
+      - type: base
+        spec: "∪"
+      - type: base
+        spec: "∩"
+      - type: base
+        spec: "ℵ"
+      - type: base
+        spec: "Π"
+      - type: base
+        spec: "ℤ"
+      - type: base
+        spec: "⇐"
+      - type: base
+        spec: "⇔"
+      - type: base
+        spec: "⇒"
+      - type: base
+        spec: "↦"
+      - type: base
+        spec: "Θ"
+      - $delete
+
+    - bottom:
+      - $alphabet
+      - type: base
+        spec: "M5|!code/key_to_alt_0_layout"
+      - $action
+      - $space
+      - type: base
+        spec: "M6|!code/key_to_alt_1_layout"
+        attributes: {style: StickyOn}
+      - $enter
+
+
